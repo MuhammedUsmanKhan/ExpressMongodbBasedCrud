@@ -1,4 +1,4 @@
-const addpollBut = document.querySelector('#openModal');
+//const addpollBut = document.querySelector('#openModal');
 const modal = document.getElementById('createPollModal');
 const closeModal = modal.getElementsByClassName('createPoll-modal-close')[0];
 const closeModalbut = modal.getElementsByClassName('createPoll-modal-close')[1];
@@ -12,27 +12,7 @@ const errormodalOverlay = errorDisplayModal.getElementsByClassName('error-modal-
 
 /////////////have to modify it for update///////////////////
 
-// addpollBut.addEventListener('click', () => {
 
-//   let postTitle = document.getElementById(`postTitle`)
-//   let postDetails = document.getElementById(`postContent`)
-//   postTitle.value = ""
-//   postDetails.value = ""
-
-// let addPostBut = document.getElementById(`pollCreatedBut`)
-// let updtPostBut = document.getElementById(`postCreatedBut`)
-
-// if (addPostBut.classList.contains(`hidden`)) {
-//   addPostBut.classList.remove(`hidden`)
-//   updtPostBut.classList.add(`hidden`)
-// }
-
-// modal.classList.remove('hidden');
-// setTimeout(() => {
-//   modal.classList.add('modal-open');
-//   modalContainer.classList.add('modal-container-open');
-// }, 50);
-//});
 closeModal.addEventListener('click', () => {
   modal.classList.remove('modal-open');
   modalContainer.classList.remove('modal-container-open');
